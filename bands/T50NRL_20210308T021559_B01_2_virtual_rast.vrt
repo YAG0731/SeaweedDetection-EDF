@@ -1,0 +1,244 @@
+<VRTDataset rasterXSize="5490" rasterYSize="5490">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 50N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",117],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32650"]]</SRS>
+  <GeoTransform>  7.9998000000000000e+05,  2.0000000000000000e+01,  0.0000000000000000e+00,  6.0000000000000000e+05,  0.0000000000000000e+00, -2.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">8326</MDI>
+      <MDI key="STATISTICS_MEAN">1557.4510585859</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">979.65164148645</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.56  µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B01_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">8827</MDI>
+      <MDI key="STATISTICS_MEAN">1600.2355489186</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">1012.8437317056</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.665 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B02_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">8827</MDI>
+      <MDI key="STATISTICS_MEAN">1557.3963735373</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">997.47927449503</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.705 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B03_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="4">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">8917</MDI>
+      <MDI key="STATISTICS_MEAN">1476.5826972119</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">955.39913444537</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.74  µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B04_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="5">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">9572</MDI>
+      <MDI key="STATISTICS_MEAN">1555.2426760459</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">1011.5531497728</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.783 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B05_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="6">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">9433</MDI>
+      <MDI key="STATISTICS_MEAN">1580.9927131292</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">1084.9336480045</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.842 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B06_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="7">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">9652</MDI>
+      <MDI key="STATISTICS_MEAN">1625.1039316868</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">1172.7470391273</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.842 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B07_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="8">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">9658</MDI>
+      <MDI key="STATISTICS_MEAN">1608.5950562954</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">1172.5616401392</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.865 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/bands/08.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="Float64" BlockXSize="5490" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="9">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">9649</MDI>
+      <MDI key="STATISTICS_MEAN">1618.4578305692</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">1203.1928278683</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>0.945 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B8A_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float64" band="10">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">14633</MDI>
+      <MDI key="STATISTICS_MEAN">2905.4716669577</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">2004.4798574468</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.9</MDI>
+    </Metadata>
+    <Description>0.945 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/bands/09.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="Float64" BlockXSize="5490" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="11">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">7868</MDI>
+      <MDI key="STATISTICS_MEAN">1407.1155573051</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">915.55935462906</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>1.375 µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B11_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="12">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">7003</MDI>
+      <MDI key="STATISTICS_MEAN">1346.2174337207</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">851.68800741938</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Description>1.61  µm</Description>
+    <NoDataValue>-9.223372036854776e+18</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/Users/yunaoguo/Desktop/EDF_SeaweedProject/tawitawi1/GRANULE/L2A_T50NRL_A020907_20210308T022832/IMG_DATA/R20m/T50NRL_20210308T021559_B12_20m.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="1024" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <NODATA>-9.223372036854776e+18</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
